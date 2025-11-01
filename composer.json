@@ -1,5 +1,5 @@
 {
-    "name": "invezgo/invezgo-php-sdk",
+    "name": "invezgo-sdk",
     "description": "Official PHP SDK for Invezgo API - Data Saham Indonesia",
     "version": "1.0.0",
     "type": "library",
