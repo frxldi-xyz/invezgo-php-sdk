@@ -1,0 +1,49 @@
+{
+    "name": "invezgo/invezgo-php-sdk",
+    "description": "Official PHP SDK for Invezgo API - Data Saham Indonesia",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "invezgo",
+        "sdk",
+        "api",
+        "saham",
+        "indonesia",
+        "stock",
+        "investasi",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Invezgo",
+            "email": "admin@invezgo.com",
+            "homepage": "https://invezgo.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0|^8.1|^8.2|^8.3",
+        "guzzlehttp/guzzle": "^7.0|^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0",
+        "phpstan/phpstan": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Invezgo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Invezgo\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
+
